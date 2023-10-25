@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+/* write a function that takes three sorted arrays, finds and prints all common elements of these arrays. try to do it with a single loop */
+
+
 vector<int> commonElements(int arrA[], int arrB[], int arrC[], int sizeA, int sizeB, int sizeC) {
     int i = 0, j = 0, k = 0;
     vector<int> commonNumList;
